@@ -1,7 +1,7 @@
 var dataSetEnables = [];
 var dataSetHanditems = [];
 function getJSONEnables (){
-    fetch('https://enableshabbo.000webhostapp.com/JSONEnables.php')
+    fetch('https://gillerav01.github.io/enablesHabbo/JSONEnables.php')
     .then(function(response) {
         return response.json();
     })
@@ -25,7 +25,7 @@ function getJSONEnables (){
 }
 
 function getJSONHanditems() {
-    fetch('https://enableshabbo.000webhostapp.com/JSONHanditems.php')
+    fetch('https://gillerav01.github.io/enablesHabbo/JSONHanditems.php')
     .then(function(response) {
         return response.json();
     }).then(function(myJson) {
